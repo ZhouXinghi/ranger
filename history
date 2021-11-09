@@ -1,0 +1,50 @@
+search sha
+search fonts
+rename I2DL
+delete -r
+search 
+compress test.zip
+search .local
+mkcd fonts
+search ranger
+search local
+linemode devicons2
+opk
+default_linemode devicons
+cd ranger config
+open_with
+mkcd ranger_conf
+cd 
+mkcd
+mkcd Software
+search ran
+search rang
+mkcd alacritty
+shell nvim alacritty.yml
+search ala
+flat 4
+flat 0
+shell git clone https://git.suckless.org/dwm
+shell make clean install
+search
+search x11
+shell sudo nvim xinitrc
+search xsl
+shell nvim dwm.desktop
+search i3
+search PI
+search pi
+search n/vim
+search ra
+
+search nv
+search mnt
+Plu
+rename i2dl_exercises
+delete
+shell nvim test.py
+extract_here 
+compress models.zip
+rename git_test
+shell nvim newfile
+search net
