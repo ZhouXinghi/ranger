@@ -215,7 +215,8 @@ class fzf_select(Command):
             )
 
         env = os.environ.copy()
-        env['FZF_DEFAULT_COMMAND'] = 'ag --hidden --ignore .git -l -g ""' 
+        #  find all files and directories
+        env['FZF_DEFAULT_COMMAND'] = 'find .'  
         env['FZF_DEFAULT_OPTS'] = '--height=40% --layout=reverse --ansi --preview="{}"'.format('''
             (
                 batcat --color=always {} ||
